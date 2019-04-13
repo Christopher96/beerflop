@@ -1,0 +1,18 @@
+<ion-content>
+    <div [class.animate]="clicked" (click)="clicked = !clicked" class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <ion-card class="player-card">
+                    <ion-card-content>
+                        <img src="/assets/img/ace.svg">
+                    </ion-card-content>
+                </ion-card>
+            </div>
+            <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+            </div>
+        </div>
+    </div>
+</ion-content>
